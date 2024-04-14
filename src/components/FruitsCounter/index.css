@@ -1,0 +1,90 @@
+.fruits-counter-container {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #ffd569;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fruits-container {
+  width: 90%;
+  height: 95vh;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #000000;
+  margin-bottom: 50px;
+}
+
+.count {
+  color: #ffd569;
+}
+
+.fruits-content-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.fruit-button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 230px;
+}
+
+.button {
+  background-color: #007bff;
+  height: 40px;
+  width: 120px;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  border-width: 0px;
+  border-radius: 5px;
+  margin-top: 50px;
+  font-size: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .fruits-content-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .fruits-container {
+    justify-content: space-around;
+    width: 80%;
+    height: 85vh;
+  }
+  .heading {
+    font-size: 55px;
+    text-align: center;
+  }
+  .image {
+    width: 300px;
+  }
+  .fruit-button-container {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 992px){
+  .fruit-button-container {
+    margin:30px;
+  }
+} 
